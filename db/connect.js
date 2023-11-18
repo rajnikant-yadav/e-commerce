@@ -1,12 +1,4 @@
 const mongoose = require('mongoose');
-
-// const connectDB = (url) =>{
-//     return mongoose.connect(url);
-// }
-
-// module.exports = connectDB;
-
-
 const connectDB= async (databaseUrl)=>{
     try{
 // const DB_Option={
